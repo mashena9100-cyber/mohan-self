@@ -1,0 +1,6 @@
+{
+  "name": "موهان",
+  "description": "دفتر روزانه، مدیریت پروژه‌ها، فاکتور، حساب‌ها، ژورنال و گزارش جامع موهان",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
