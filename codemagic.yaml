@@ -3,13 +3,9 @@ workflows:
   android-build:
     name: MOHAN Android Build
     max_build_duration: 60
-    environment:
-      vars:
-        PACKAGE_NAME: "com.mohan.self"
     scripts:
       - name: Build APK
         script: |
-          chmod +x gradlew
-          ./gradlew assembleDebug
+          gradle assembleDebug
     artifacts:
       - app/build/outputs/apk/debug/*.apk
